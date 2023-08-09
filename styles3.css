@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+ background-color: black;
+list-style: none;
+text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #020101;
+}
+nav {
+    width: 60%;
+    }
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover {
+    color: #D21617;
+}
+#logo {
+    width: 150px;
+    height: auto;
+}
+.form-image {
+    background-image: url('https://pbs.twimg.com/tweet_video_thumb/FLBbPAdXEAAg1Jg.jpg');
+   
+}
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 100%;
+    display:flex;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.card{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://www.tracklist.com.br/wp-content/uploads/2021/10/robert-pattinson-batman-900x506-2.webp')
+}
+
+.banner-2 {
+    background-image: url('https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg')
+}
+
+.banner-3 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG.jpeg')
+}
+
+.banner-4 {
+    background-image: url('https://img.r7.com/images/the-batman-pattinsonjpg-16102021174211218?dimensions=677x369');
+}
+
+.banner-5 {
+    background-image: url('https://midianinja.org/files/2022/03/20220307-ovicio-the-batman-movie-selina-kyle-catwoman-zoe-kravitz.jpg');
+
+ 
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.footer-navigation {
+    display: none;
+
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+    nav {
+      display: none;
+    }
+    
+    #banner {
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Trailer{
+        width: 100%;
+
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+
+}
