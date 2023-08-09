@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #020101;
+}
+nav {
+    width: 60%;
+    }
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover {
+    color: #D21617;
+}
+#logo {
+    width: 150px;
+    height: auto;
+}
+.form-image {
+    background-image: url('https://pbs.twimg.com/tweet_video_thumb/FLBbPAdXEAAg1Jg.jpg');
+   
+}
+
+main{
+    background-image: url(Bamm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+
+       
+}
+
+.w50 {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.box {
+    display: flex;
+    width: 930px;
+}
+
+.img-box {
+    background-color:#D21617;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    
+}
+
+.img-box {
+    width: 100%;
+}
+
+.form-box {
+    background-color: #D21617;
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.form-box h2 {
+    font-size: 30px;
+}
+.form-box p {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.form-box p a{
+    color: #020101;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.form-box form {
+    margin: 20px 0;
+}
+
+.form .inpunt-group {
+    margin-bottom: 15px;
+}
+
+.form .inpunt-group label {
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form .inpunt-group input {
+    width: 100%;
+    height: 47px;
+    background-color: #D21617;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    color: aliceblue;
+    transition: all 0.4s ease;
+}
+
+form .inpunt-group input:focus{
+    border-color: #D21617;
+    color: aliceblue;
+}
+
+form .inpunt-group button {
+    width: 100%;
+    width: 47px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: #D21617;
+}
+
+
